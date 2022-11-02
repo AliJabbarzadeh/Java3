@@ -21,7 +21,7 @@ public class CreateNewProductJPanel extends javax.swing.JPanel {
         userProcessContainer = upc;
         supplier = s;
     }
-
+    // To add new product
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
@@ -158,7 +158,7 @@ public class CreateNewProductJPanel extends javax.swing.JPanel {
         
         JOptionPane.showMessageDialog(this, "Product added!", "Info", JOptionPane.INFORMATION_MESSAGE);
 }//GEN-LAST:event_btnAddActionPerformed
-
+    // previous page this will load data from list
     private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed
 
         userProcessContainer.remove(this);

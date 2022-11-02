@@ -131,7 +131,7 @@ public class SearchResultJPanel extends javax.swing.JPanel {
         layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {btnSave, btnUpdate});
 
     }// </editor-fold>//GEN-END:initComponents
-
+    // update details of product 
     private void btnUpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUpdateActionPerformed
 
         //txtId.setEditable(true);

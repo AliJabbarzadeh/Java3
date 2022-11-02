@@ -89,7 +89,7 @@ public class LoginSupplierJPanel extends javax.swing.JPanel {
                 .addContainerGap())
         );
     }// </editor-fold>//GEN-END:initComponents
-
+    // navigate to supplier details page
     private void btnFindActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFindActionPerformed
 
         Supplier supplier = (Supplier) cmbSupplier.getSelectedItem();
@@ -98,7 +98,7 @@ public class LoginSupplierJPanel extends javax.swing.JPanel {
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.next(userProcessContainer);
     }//GEN-LAST:event_btnFindActionPerformed
-
+    // create all supplier list
     private void cmbSupplierActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmbSupplierActionPerformed
 
     }//GEN-LAST:event_cmbSupplierActionPerformed

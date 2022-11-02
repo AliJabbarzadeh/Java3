@@ -41,7 +41,7 @@ public class ManageProductCatalogJPanel extends javax.swing.JPanel {
             model.addRow(row);
         }
     }
-
+    // select row and show product details
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
@@ -168,7 +168,7 @@ public class ManageProductCatalogJPanel extends javax.swing.JPanel {
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.next(userProcessContainer);
     }//GEN-LAST:event_btnViewActionPerformed
-
+    // create new product
     private void btnCreateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCreateActionPerformed
 
         CreateNewProductJPanel cnpjp = new CreateNewProductJPanel(userProcessContainer, supplier);

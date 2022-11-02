@@ -150,6 +150,7 @@ public class ViewProductDetailJPanel extends javax.swing.JPanel {
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.previous(userProcessContainer);
     }
+    // save all the details for supplier
     private void btnSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSaveActionPerformed
         product.setPrice(Integer.parseInt(txtPrice.getText()));
         product.setProdName(txtName.getText());

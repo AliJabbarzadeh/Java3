@@ -20,7 +20,8 @@ public class SearchForProductJPanel extends javax.swing.JPanel {
         userProcessContainer = upc;
         supplier =s;
     }
-
+    
+    // search product by product id
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
